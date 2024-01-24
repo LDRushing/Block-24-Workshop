@@ -2,6 +2,7 @@ import {puppyList} from './data.js'//shares information between data.js and App.
 import { useState } from 'react'
 import './App.css'
 
+
 function App() {
 
 //Remember that useState returns an array. And, the array contains two elements. The first is the value that you are storing. The second is a function, which you can use to reset the value. You can deconstruct both of those values from the array, ending up with this: 
